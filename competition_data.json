@@ -1,0 +1,2328 @@
+{
+  "settings": {
+    "competitionState": "ACTIVE",
+    "currentActiveRound": "ROUND_1",
+    "round1DurationMinutes": 75,
+    "round2DurationMinutes": 60,
+    "vaultDurationMinutes": 15,
+    "round1StartedAt": 1791445935679,
+    "qualifyTopCount": 10,
+    "isLeaderboardPublic": true,
+    "allowRetry": true,
+    "maxRetriesPerNode": 5,
+    "isDemoMode": true,
+    "hintPenaltyPointsDefault": 5,
+    "timeBonusWeight": 1
+  },
+  "teams": {
+    "TQ-CYBER-101": {
+      "id": "TQ-CYBER-101",
+      "name": "CYBERDYNE SYSTEMS",
+      "loginCode": "CYBER2026",
+      "leaderName": "Aarav Sharma",
+      "leaderEmail": "aarav.sharma@eng.edu",
+      "leaderPhone": "+91 98450 11223",
+      "department": "Computer Science & Eng",
+      "college": "Apex Institute of Technology",
+      "members": [
+        {
+          "name": "Aarav Sharma",
+          "usn": "4AP21CS014",
+          "department": "CSE"
+        },
+        {
+          "name": "Pooja Hegde",
+          "usn": "4AP21CS042",
+          "department": "CSE"
+        },
+        {
+          "name": "Karthik Rao",
+          "usn": "4AP21CS089",
+          "department": "ISE"
+        }
+      ],
+      "currentRound": "ROUND_2",
+      "status": "QUALIFIED",
+      "score": 620,
+      "timeBonus": 40,
+      "penalties": 5,
+      "totalTimeSpentSeconds": 2420,
+      "completedChallenges": [
+        "CH-01",
+        "CH-02",
+        "CH-03",
+        "CH-04",
+        "CH-05"
+      ],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {
+        "CH-02": "HARD",
+        "CH-08": "HARD"
+      },
+      "hintsUsed": 1,
+      "attemptsCount": 13,
+      "isQualified": true,
+      "createdAt": 1791443235679,
+      "round2Score": 1350,
+      "round2CurrentRoom": 5,
+      "round2CompletedRooms": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "round2SolvedPuzzles": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "round2VerifiedCodes": {
+        "1": "DOOR-KEY-91",
+        "2": "DECODER-CHIP-42",
+        "3": "SYSTEM-RELAY-88",
+        "4": "VAULT-FLAG-777"
+      },
+      "round2HintsUsed": 1,
+      "round2RoomHintsUsed": {
+        "2": true
+      },
+      "round2TimeSpentSeconds": 14,
+      "round2Status": "COMPLETED",
+      "qualified": true,
+      "failedAttempts": 3,
+      "round2Step1Solved": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "4": true
+      },
+      "round2Step2Verified": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "4": true
+      },
+      "round2RoomAttempts": {},
+      "round2StartTime": 1791814214460,
+      "round2Step3Completed": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "4": true
+      },
+      "flagCollected": true,
+      "round2FinishTime": 1791814228329
+    },
+    "TQ-QUANTUM-202": {
+      "id": "TQ-QUANTUM-202",
+      "name": "QUANTUM PULSE",
+      "loginCode": "PULSE2026",
+      "leaderName": "Rohan Deshmukh",
+      "leaderEmail": "rohan.d@eng.edu",
+      "leaderPhone": "+91 98765 43210",
+      "department": "Electronics & Comm Eng",
+      "college": "National Institute of Tech",
+      "members": [
+        {
+          "name": "Rohan Deshmukh",
+          "usn": "4NI22EC011",
+          "department": "ECE"
+        },
+        {
+          "name": "Sneha Patel",
+          "usn": "4NI22EC033",
+          "department": "ECE"
+        },
+        {
+          "name": "Varun Nair",
+          "usn": "4NI22EE005",
+          "department": "EEE"
+        },
+        {
+          "name": "Ananya Roy",
+          "usn": "4NI22EC055",
+          "department": "ECE"
+        }
+      ],
+      "currentRound": "ROUND_2",
+      "status": "QUALIFIED",
+      "score": 580,
+      "timeBonus": 35,
+      "penalties": 0,
+      "totalTimeSpentSeconds": 2680,
+      "completedChallenges": [
+        "CH-01",
+        "CH-02",
+        "CH-03",
+        "CH-04",
+        "CH-05"
+      ],
+      "unlockedCodesRound2": {
+        "1": "OMEGA-771"
+      },
+      "selectedDifficulties": {
+        "CH-02": "MEDIUM",
+        "CH-08": "MEDIUM"
+      },
+      "hintsUsed": 0,
+      "attemptsCount": 8,
+      "isQualified": true,
+      "createdAt": 1791443335679,
+      "round2Score": 50,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [
+        1
+      ],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "IN_PROGRESS",
+      "qualified": true,
+      "failedAttempts": 1,
+      "round2Step1Solved": {
+        "1": true
+      },
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {},
+      "round2StartTime": 1791904865293
+    },
+    "TQ-MECH-303": {
+      "id": "TQ-MECH-303",
+      "name": "MECH HORIZON",
+      "loginCode": "MECH2026",
+      "leaderName": "Vikramaditya Sen",
+      "leaderEmail": "vikram.sen@eng.edu",
+      "leaderPhone": "+91 91234 56789",
+      "department": "Mechanical Engineering",
+      "college": "Heritage College of Eng",
+      "members": [
+        {
+          "name": "Vikramaditya Sen",
+          "usn": "4HC21ME020",
+          "department": "ME"
+        },
+        {
+          "name": "Aditya Kulkarni",
+          "usn": "4HC21ME045",
+          "department": "ME"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 760,
+      "timeBonus": 20,
+      "penalties": 20,
+      "totalTimeSpentSeconds": 3250,
+      "completedChallenges": [
+        "CH-01",
+        "CH-03",
+        "CH-04",
+        "CH-02",
+        "CH-05"
+      ],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {
+        "CH-08": "HARD"
+      },
+      "hintsUsed": 3,
+      "attemptsCount": 11,
+      "isQualified": false,
+      "createdAt": 1791443435679,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": false,
+      "nodeHintsUsed": {
+        "CH-02": 1
+      },
+      "questionPenalties": {
+        "CH-02": 10
+      },
+      "nodeAttempts": {
+        "CH-02": 1,
+        "CH-05": 1
+      },
+      "passwordStatus": "COMPLETED",
+      "passwordAttempts": 2,
+      "finishTimeRound1": 1791649555233,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-VOLT-404": {
+      "id": "TQ-VOLT-404",
+      "name": "VOLT DYNAMICS",
+      "loginCode": "VOLT2026",
+      "leaderName": "Meera Nambiar",
+      "leaderEmail": "meera.n@eng.edu",
+      "leaderPhone": "+91 97412 34567",
+      "department": "Electrical & Electronics",
+      "college": "St. Joseph Engineering College",
+      "members": [
+        {
+          "name": "Meera Nambiar",
+          "usn": "4SJ22EE018",
+          "department": "EEE"
+        },
+        {
+          "name": "Gautam Menon",
+          "usn": "4SJ22EE029",
+          "department": "EEE"
+        },
+        {
+          "name": "Tara Bhat",
+          "usn": "4SJ22CS090",
+          "department": "CSE"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 595,
+      "timeBonus": 15,
+      "penalties": 5,
+      "totalTimeSpentSeconds": 3395,
+      "completedChallenges": [
+        "CH-01",
+        "CH-02",
+        "CH-03",
+        "CH-04",
+        "CH-05"
+      ],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {
+        "CH-02": "EASY"
+      },
+      "hintsUsed": 1,
+      "attemptsCount": 7,
+      "isQualified": false,
+      "createdAt": 1791443535679,
+      "nodeAttempts": {
+        "CH-05": 1
+      },
+      "passwordStatus": "COMPLETED",
+      "passwordAttempts": 1,
+      "finishTimeRound1": 1791563516362,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": false,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-ROBOTIC-505": {
+      "id": "TQ-ROBOTIC-505",
+      "name": "ROBOTIC SYNAPSE",
+      "loginCode": "SYNAPSE2026",
+      "leaderName": "Devansh Verma",
+      "leaderEmail": "devansh.v@eng.edu",
+      "leaderPhone": "+91 99887 76655",
+      "department": "Mechatronics & Robotics",
+      "college": "Sahyadri College of Eng",
+      "members": [
+        {
+          "name": "Devansh Verma",
+          "usn": "4SC21MT004",
+          "department": "MTR"
+        },
+        {
+          "name": "Tanvi Jain",
+          "usn": "4SC21MT012",
+          "department": "MTR"
+        },
+        {
+          "name": "Farhan Ali",
+          "usn": "4SC21CS034",
+          "department": "CSE"
+        },
+        {
+          "name": "Rahul Joshi",
+          "usn": "4SC21EC041",
+          "department": "ECE"
+        }
+      ],
+      "currentRound": "ROUND_2",
+      "status": "QUALIFIED",
+      "score": 525,
+      "timeBonus": 25,
+      "penalties": 0,
+      "totalTimeSpentSeconds": 2850,
+      "completedChallenges": [
+        "CH-01",
+        "CH-02",
+        "CH-03",
+        "CH-04",
+        "CH-05"
+      ],
+      "unlockedCodesRound2": {
+        "1": "OMEGA-771"
+      },
+      "selectedDifficulties": {
+        "CH-02": "MEDIUM"
+      },
+      "hintsUsed": 0,
+      "attemptsCount": 6,
+      "isQualified": true,
+      "createdAt": 1791443635679,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": true,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-COM-726": {
+      "id": "TQ-COM-726",
+      "name": "abc",
+      "loginCode": "302350",
+      "leaderName": "cys",
+      "leaderEmail": "abc@gamil",
+      "leaderPhone": "+91 47827329892",
+      "department": "Computer Science & Eng",
+      "college": "mite",
+      "members": [
+        {
+          "name": "cys",
+          "usn": "LEADER",
+          "department": "Computer Science & Eng"
+        },
+        {
+          "name": "Ananya",
+          "usn": "6378219ghh",
+          "department": "Electronics & Comm Eng"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 50,
+      "timeBonus": 0,
+      "penalties": 10,
+      "totalTimeSpentSeconds": 45,
+      "completedChallenges": [
+        "CH-01"
+      ],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {
+        "CH-02": "EASY"
+      },
+      "hintsUsed": 1,
+      "attemptsCount": 2,
+      "isQualified": false,
+      "createdAt": 1791449466778,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": false,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-COM-196": {
+      "id": "TQ-COM-196",
+      "name": "abc",
+      "loginCode": "A54A62",
+      "leaderName": "ananya",
+      "leaderEmail": "leader@mite.ac",
+      "leaderPhone": "+91837298",
+      "department": "Computer Science & Eng",
+      "college": "xyz",
+      "members": [
+        {
+          "name": "ananya",
+          "usn": "LEADER",
+          "department": "Computer Science & Eng"
+        },
+        {
+          "name": "anu",
+          "usn": "4yyuu99",
+          "department": "Computer Science & Eng"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 0,
+      "timeBonus": 0,
+      "penalties": 0,
+      "totalTimeSpentSeconds": 225,
+      "completedChallenges": [],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {},
+      "hintsUsed": 0,
+      "attemptsCount": 0,
+      "isQualified": false,
+      "createdAt": 1791561900762,
+      "nodeAttempts": {
+        "CH-01": 2,
+        "CH-02": 1,
+        "CH-03": 1,
+        "CH-04": 1,
+        "CH-05": 1
+      },
+      "passwordStatus": "LOCKED",
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": false,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-COM-923": {
+      "id": "TQ-COM-923",
+      "name": "abcd",
+      "loginCode": "45AFBE",
+      "leaderName": "ananaua",
+      "leaderEmail": "shhas999@gmail.com",
+      "leaderPhone": "873239",
+      "department": "Computer Science & Eng",
+      "college": "djbisk",
+      "members": [
+        {
+          "name": "ananaua",
+          "usn": "LEADER",
+          "department": "Computer Science & Eng"
+        },
+        {
+          "name": "ajjadnk",
+          "usn": "7y8u93",
+          "department": "Computer Science & Eng"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 0,
+      "timeBonus": 0,
+      "penalties": 0,
+      "totalTimeSpentSeconds": 0,
+      "completedChallenges": [],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {},
+      "hintsUsed": 0,
+      "attemptsCount": 0,
+      "isQualified": false,
+      "createdAt": 1791562256657,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": false,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-COM-557": {
+      "id": "TQ-COM-557",
+      "name": "vbbh",
+      "loginCode": "BA3DE0",
+      "leaderName": "uewbd",
+      "leaderEmail": "djjwu@uu",
+      "leaderPhone": "982972617",
+      "department": "Computer Science & Eng",
+      "college": "jiuh",
+      "members": [
+        {
+          "name": "uewbd",
+          "usn": "LEADER",
+          "department": "Computer Science & Eng"
+        },
+        {
+          "name": "wdkmql",
+          "usn": "8179218ibbhb",
+          "department": "Computer Science & Eng"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 650,
+      "timeBonus": 0,
+      "penalties": 20,
+      "totalTimeSpentSeconds": 285,
+      "completedChallenges": [
+        "CH-01",
+        "CH-02",
+        "CH-03",
+        "CH-04",
+        "CH-05"
+      ],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {},
+      "hintsUsed": 2,
+      "attemptsCount": 9,
+      "isQualified": false,
+      "createdAt": 1791647212131,
+      "nodeAttempts": {
+        "CH-01": 1,
+        "CH-02": 2,
+        "CH-03": 1,
+        "CH-04": 1,
+        "CH-05": 1
+      },
+      "nodeHintsUsed": {
+        "CH-03": 2
+      },
+      "passwordStatus": "COMPLETED",
+      "passwordAttempts": 3,
+      "finishTimeRound1": 1791648129032,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "qualified": false,
+      "failedAttempts": 0,
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {}
+    },
+    "TQ-COM-499": {
+      "id": "TQ-COM-499",
+      "name": "jadnksn",
+      "loginCode": "65A888",
+      "leaderName": "wiii",
+      "leaderEmail": "kwhw@277",
+      "leaderPhone": "49384820",
+      "department": "Computer Science & Eng",
+      "college": "iqwji",
+      "members": [
+        {
+          "name": "wiii",
+          "usn": "LEADER",
+          "department": "Computer Science & Eng"
+        },
+        {
+          "name": "fndefje",
+          "usn": "4nnkml",
+          "department": "Computer Science & Eng"
+        }
+      ],
+      "currentRound": "ROUND_1",
+      "status": "ACTIVE",
+      "score": 0,
+      "timeBonus": 0,
+      "penalties": 0,
+      "totalTimeSpentSeconds": 0,
+      "completedChallenges": [],
+      "unlockedCodesRound2": {},
+      "selectedDifficulties": {},
+      "hintsUsed": 0,
+      "attemptsCount": 1,
+      "isQualified": false,
+      "createdAt": 1791814457441,
+      "nodeAttempts": {
+        "CH-01": 1
+      },
+      "failedAttempts": 1,
+      "round2Score": 0,
+      "round2CurrentRoom": 1,
+      "round2CompletedRooms": [],
+      "round2SolvedPuzzles": [],
+      "round2VerifiedCodes": {},
+      "round2HintsUsed": 0,
+      "round2RoomHintsUsed": {},
+      "round2TimeSpentSeconds": 0,
+      "round2Status": "NOT_STARTED",
+      "round2Step1Solved": {},
+      "round2Step2Verified": {},
+      "round2RoomAttempts": {},
+      "qualified": false
+    }
+  },
+  "challenges": {
+    "CH-01": {
+      "id": "CH-01",
+      "round": "ROUND_1",
+      "nodeCode": "Q1",
+      "title": "Question 1: Logical Reasoning",
+      "category": "DIGITAL",
+      "difficulty": "EASY",
+      "points": 100,
+      "question": "Find the number that replaces the question mark.\n\nSeries: 25, 49, 121, 169, ?",
+      "questionType": "NUMERICAL",
+      "correctAnswer": "289",
+      "hints": [
+        "Look for a relationship between prime numbers and squares.",
+        "The square roots of the given numbers are prime numbers.",
+        "Find the next prime number after 13 and square it."
+      ],
+      "hint": "Look for a relationship between prime numbers and squares.",
+      "explanation": "The numbers are squares of prime numbers: 5², 7², 11², 13², and 17². Therefore, the next number is 17² = 289.",
+      "hintPenaltyPoints": 10,
+      "order": 1,
+      "active": true
+    },
+    "CH-02": {
+      "id": "CH-02",
+      "round": "ROUND_1",
+      "nodeCode": "Q2",
+      "title": "Question 2: C Programming Output",
+      "category": "CODING",
+      "difficulty": "MEDIUM",
+      "points": 100,
+      "question": "What is the output of this C program?",
+      "codeSnippet": "#include <stdio.h>\n\nint main() {\n    int i = 0;\n    int j = i++ && printf(\"Geeks\");\n    printf(\"%d %d\", i, j);\n    return 0;\n}",
+      "questionType": "TEXT",
+      "correctAnswer": "1 0",
+      "hints": [
+        "Pay attention to the post-increment operator.",
+        "What value does i++ return before incrementing?",
+        "The left side of && is false, so the right side is not executed."
+      ],
+      "hint": "Pay attention to the post-increment operator.",
+      "explanation": "The post-increment operator returns the original value of i, which is 0. Because the left side of && is false, the printf(\"Geeks\") statement is skipped. Then i becomes 1 and j becomes 0.",
+      "hintPenaltyPoints": 10,
+      "order": 2,
+      "active": true
+    },
+    "CH-03": {
+      "id": "CH-03",
+      "round": "ROUND_1",
+      "nodeCode": "Q3",
+      "title": "Question 3: Alphabet Coding",
+      "category": "ENGINEERING_LOGIC",
+      "difficulty": "EASY",
+      "points": 100,
+      "question": "In a certain code, NEWYORK is written as 111. How is NEWJERSEY written in the same code?",
+      "questionType": "NUMERICAL",
+      "correctAnswer": "124",
+      "hints": [
+        "Each letter has a numerical value.",
+        "Use the letter's position in the alphabet.",
+        "Add the positions of all nine letters in NEWJERSEY."
+      ],
+      "hint": "Each letter has a numerical value.",
+      "explanation": "Add the alphabetical positions of each letter, where A = 1, B = 2, and so on. NEWJERSEY = 14 + 5 + 23 + 10 + 5 + 18 + 19 + 5 + 25 = 124.",
+      "hintPenaltyPoints": 10,
+      "order": 3,
+      "active": true
+    },
+    "CH-04": {
+      "id": "CH-04",
+      "round": "ROUND_1",
+      "nodeCode": "Q4",
+      "title": "Question 4: Numerical Aptitude",
+      "category": "ENGINEERING_LOGIC",
+      "difficulty": "MEDIUM",
+      "points": 100,
+      "question": "A postman travels from his post office to a village by bicycle at 25 km/h. On the return journey, his bicycle is stolen, so he walks back at 4 km/h. The total travel time is 2 hours and 54 minutes. Find the distance between the post office and the village.",
+      "questionType": "TEXT",
+      "correctAnswer": "10 km",
+      "hints": [
+        "Convert the total travel time into minutes.",
+        "The distance travelled in both directions is equal, but the speeds differ.",
+        "Let the onward journey take t minutes and equate the two distance expressions."
+      ],
+      "hint": "Convert the total travel time into minutes.",
+      "explanation": "Total time = 174 minutes. Let onward journey take t minutes. 25t = 4(174 - t) => 29t = 696 => t = 24. Distance = 25 * 24/60 = 10 km.",
+      "hintPenaltyPoints": 10,
+      "order": 4,
+      "active": true
+    },
+    "CH-05": {
+      "id": "CH-05",
+      "round": "ROUND_1",
+      "nodeCode": "Q5",
+      "title": "Question 5: Digital Logic and Number Systems",
+      "category": "DIGITAL",
+      "difficulty": "HARD",
+      "points": 100,
+      "question": "What is the 16-bit two's complement representation of decimal −28?",
+      "questionType": "TEXT",
+      "correctAnswer": "1111 1111 1110 0100",
+      "hints": [
+        "Start by converting positive 28 to 16-bit binary.",
+        "Invert every bit to obtain the one's complement.",
+        "Add 1 to the inverted binary number."
+      ],
+      "hint": "Start by converting positive 28 to 16-bit binary.",
+      "explanation": "1. Write +28 in 16-bit binary: 0000 0000 0001 1100. 2. Invert all bits: 1111 1111 1110 0011. 3. Add 1: 1111 1111 1110 0100.",
+      "hintPenaltyPoints": 10,
+      "order": 5,
+      "active": true
+    }
+  },
+  "submissions": [
+    {
+      "id": "SUB-1791814950813",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "challengeId": "CH-01",
+      "round": "ROUND_1",
+      "answerSubmitted": "MATCHSTICK_ASSEMBLY",
+      "isCorrect": false,
+      "pointsAwarded": 0,
+      "timestamp": 1791814950813
+    },
+    {
+      "id": "SUB-1791649555226",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "challengeId": "CH-05",
+      "round": "ROUND_1",
+      "answerSubmitted": "1111 1111 1110 0100",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791649555226
+    },
+    {
+      "id": "SUB-1791649555221",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "challengeId": "CH-02",
+      "round": "ROUND_1",
+      "answerSubmitted": "1 0",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791649555221
+    },
+    {
+      "id": "SUB-1791647495365",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "challengeId": "CH-05",
+      "round": "ROUND_1",
+      "answerSubmitted": "1111111111100100",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791647495365
+    },
+    {
+      "id": "SUB-1791647441066",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "challengeId": "CH-04",
+      "round": "ROUND_1",
+      "answerSubmitted": "10km",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791647441066
+    },
+    {
+      "id": "SUB-1791647401482",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "challengeId": "CH-03",
+      "round": "ROUND_1",
+      "answerSubmitted": "124",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791647401482
+    },
+    {
+      "id": "SUB-1791647307193",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "challengeId": "CH-02",
+      "round": "ROUND_1",
+      "answerSubmitted": "1 0",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791647307193
+    },
+    {
+      "id": "SUB-1791647299815",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "challengeId": "CH-02",
+      "round": "ROUND_1",
+      "answerSubmitted": "10",
+      "isCorrect": false,
+      "pointsAwarded": 0,
+      "timestamp": 1791647299816
+    },
+    {
+      "id": "SUB-1791647293468",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "challengeId": "CH-01",
+      "round": "ROUND_1",
+      "answerSubmitted": "289",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791647293468
+    },
+    {
+      "id": "SUB-1791563526483",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "challengeId": "CH-05",
+      "round": "ROUND_1",
+      "answerSubmitted": "1111 1111 1110 0100",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791563526483
+    },
+    {
+      "id": "SUB-1791563526479",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "challengeId": "CH-04",
+      "round": "ROUND_1",
+      "answerSubmitted": "10 km",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791563526479
+    },
+    {
+      "id": "SUB-1791563526475",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "challengeId": "CH-03",
+      "round": "ROUND_1",
+      "answerSubmitted": "124",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791563526475
+    },
+    {
+      "id": "SUB-1791563526468",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "challengeId": "CH-02",
+      "round": "ROUND_1",
+      "answerSubmitted": "1 0",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791563526468
+    },
+    {
+      "id": "SUB-1791563526463",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "challengeId": "CH-01",
+      "round": "ROUND_1",
+      "answerSubmitted": "289",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791563526463
+    },
+    {
+      "id": "SUB-1791563526457",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "challengeId": "CH-01",
+      "round": "ROUND_1",
+      "answerSubmitted": "100",
+      "isCorrect": false,
+      "pointsAwarded": 0,
+      "timestamp": 1791563526457
+    },
+    {
+      "id": "SUB-1791563516347",
+      "teamId": "TQ-VOLT-404",
+      "teamName": "VOLT DYNAMICS",
+      "challengeId": "CH-05",
+      "round": "ROUND_1",
+      "answerSubmitted": "1111 1111 1110 0100",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791563516347
+    },
+    {
+      "id": "SUB-1791449671794",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "challengeId": "CH-11",
+      "round": "ROUND_1",
+      "answerSubmitted": "MATCHSTICK_ARRANGEMENT_DATA",
+      "isCorrect": true,
+      "pointsAwarded": 100,
+      "timestamp": 1791449671794
+    },
+    {
+      "id": "SUB-1791449671787",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "challengeId": "CH-11",
+      "round": "ROUND_1",
+      "answerSubmitted": "MATCHSTICK_ARRANGEMENT_DATA",
+      "isCorrect": false,
+      "pointsAwarded": 0,
+      "timestamp": 1791449671787
+    },
+    {
+      "id": "SUB-1791449671780",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "challengeId": "CH-11",
+      "round": "ROUND_1",
+      "answerSubmitted": "MATCHSTICK_ARRANGEMENT_DATA",
+      "isCorrect": false,
+      "pointsAwarded": 0,
+      "timestamp": 1791449671780
+    },
+    {
+      "id": "SUB-1791449612484",
+      "teamId": "TQ-COM-726",
+      "teamName": "abc",
+      "challengeId": "CH-02",
+      "round": "ROUND_1",
+      "answerSubmitted": "non",
+      "isCorrect": false,
+      "pointsAwarded": 0,
+      "timestamp": 1791449612484
+    },
+    {
+      "id": "SUB-1791449596229",
+      "teamId": "TQ-COM-726",
+      "teamName": "abc",
+      "challengeId": "CH-01",
+      "round": "ROUND_1",
+      "answerSubmitted": "hhsbj",
+      "isCorrect": true,
+      "pointsAwarded": 50,
+      "timestamp": 1791449596229
+    }
+  ],
+  "logs": [
+    {
+      "id": "LOG-1791910503377",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791910503377,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791910158983",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791910158983,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791910142146",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "LOGIN",
+      "message": "Team \"QUANTUM PULSE\" authenticated into tactical dashboard.",
+      "timestamp": 1791910142146,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791909549474",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791909549474,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791909540717",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [CLIPBOARD_COPY] - Attempted to copy challenge text.",
+      "timestamp": 1791909540717,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791909492219",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791909492219,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791909172845",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791909172845,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791909143197",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "LOGIN",
+      "message": "Team \"QUANTUM PULSE\" authenticated into tactical dashboard.",
+      "timestamp": 1791909143197,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791909120968",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791909120968,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791908951022",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791908951022,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791905973327",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791905973327,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791904986840",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791904986840,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791904965291",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"QUANTUM PULSE\" solved Step 1 Letter Puzzle for The Discovery (+50 PTS). Venue Clue: \"L1\" (Lab Bench 1).",
+      "timestamp": 1791904965291,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791904922061",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791904922061,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791904905674",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791904905674,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791904865293",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"QUANTUM PULSE\" breached the facility airlock and entered Round 2: Escape Room.",
+      "timestamp": 1791904865293,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791904858413",
+      "teamId": "TQ-QUANTUM-202",
+      "teamName": "QUANTUM PULSE",
+      "type": "LOGIN",
+      "message": "Team \"QUANTUM PULSE\" authenticated into tactical dashboard.",
+      "timestamp": 1791904858413,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791815378003",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791815378003,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791815286326",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791815286326,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791815197465",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791815197465,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791815135578",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [TAB_SWITCH_BLUR] - User switched tabs or minimized competition window.",
+      "timestamp": 1791815135578,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791815119354",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791815119354,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791815115290",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791815115290,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791815042379",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791815042379,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814840996",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791814840996,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814657856",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [TAB_SWITCH_BLUR] - User switched tabs or minimized competition window.",
+      "timestamp": 1791814657856,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814575045",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791814575045,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814547662",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791814547662,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814457442",
+      "teamId": "TQ-COM-499",
+      "teamName": "jadnksn",
+      "type": "REGISTRATION",
+      "message": "Team \"jadnksn\" registered successfully [TQ-COM-499] with 2 engineers.",
+      "timestamp": 1791814457442,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814399474",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791814399474,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814397042",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791814397042,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228329",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "CHAMPIONSHIP RESTORATION: Squad \"CYBERDYNE SYSTEMS\" captured the CHAMPIONSHIP FLAG in Room 4: The Final Vault! (+200 PTS). Final Vault unlocked!",
+      "timestamp": 1791814228329,
+      "severity": "ALERT"
+    },
+    {
+      "id": "LOG-1791814228324",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" verified physical keycard \"VAULT-FLAG-777\" for The Final Vault (+50 PTS). Door unlocked.",
+      "timestamp": 1791814228324,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228320",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" solved Step 1 Letter Puzzle for The Final Vault (+50 PTS). Venue Clue: \"V4\" (Vault Control Desk).",
+      "timestamp": 1791814228320,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228316",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" cleared Step 3 Tech Challenge for The System (+200 PTS). Advancing to Room 4!",
+      "timestamp": 1791814228316,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228311",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" verified physical keycard \"SYSTEM-RELAY-88\" for The System (+50 PTS). Door unlocked.",
+      "timestamp": 1791814228311,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228307",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" solved Step 1 Letter Puzzle for The System (+50 PTS). Venue Clue: \"P3\" (3D Printer Enclosure).",
+      "timestamp": 1791814228307,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228302",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" cleared Step 3 Tech Challenge for The Decoder (+150 PTS). Advancing to Room 3!",
+      "timestamp": 1791814228302,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228296",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" verified physical keycard \"DECODER-CHIP-42\" for The Decoder (+50 PTS). Door unlocked.",
+      "timestamp": 1791814228296,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228286",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" solved Step 1 Letter Puzzle for The Decoder (+50 PTS). Venue Clue: \"S2\" (Scope Station 2).",
+      "timestamp": 1791814228286,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814228273",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791814228273,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814214513",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "HINT_USED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" requested tactical hint for The Decoder (-10 PTS penalty).",
+      "timestamp": 1791814214513,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791814214483",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" cleared Step 3 Tech Challenge for The Discovery (+100 PTS). Advancing to Room 2!",
+      "timestamp": 1791814214483,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814214473",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" verified physical keycard \"DOOR-KEY-91\" for The Discovery (+50 PTS). Door unlocked.",
+      "timestamp": 1791814214473,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814214467",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" solved Step 1 Letter Puzzle for The Discovery (+50 PTS). Venue Clue: \"L1\" (Lab Bench 1).",
+      "timestamp": 1791814214467,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814214460",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" breached the facility airlock and entered Round 2: Escape Room.",
+      "timestamp": 1791814214460,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814214448",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791814214448,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791814200778",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791814200778,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649570316",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791649570316,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649555233",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "ROUND_ADVANCED",
+      "message": "DECRYPTION SUCCESSFUL: Team solved Final Password \"R4#T9\" (+150 pts). Round 1 Tech Hunt Completed!",
+      "timestamp": 1791649555233,
+      "severity": "ALERT"
+    },
+    {
+      "id": "LOG-1791649555226",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 5: Digital Logic and Number Systems (+100 pts). Clue 5 unlocked.",
+      "timestamp": 1791649555226,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649555221",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 2: C Programming Output (+100 pts). Clue 2 unlocked.",
+      "timestamp": 1791649555221,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649555212",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791649555212,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649539030",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791649539030,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649517608",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "HINT_USED",
+      "message": "Team accessed Hint 1 on Question 2: C Programming Output (-10 pts penalty).",
+      "timestamp": 1791649517608,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791649517592",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791649517592,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649504712",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791649504712,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791649498164",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791649498164,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791648129032",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "ROUND_ADVANCED",
+      "message": "DECRYPTION SUCCESSFUL: Team solved Final Password \"R4#T9\" (+150 pts). Round 1 Tech Hunt Completed!",
+      "timestamp": 1791648129032,
+      "severity": "ALERT"
+    },
+    {
+      "id": "LOG-1791647955958",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647955958,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647628958",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [TAB_SWITCH_BLUR] - User switched tabs or minimized competition window.",
+      "timestamp": 1791647628958,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647534198",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647534198,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647524825",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647524825,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647495365",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 5: Digital Logic and Number Systems (+100 pts).",
+      "timestamp": 1791647495365,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791647454018",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647454018,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647441066",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 4: Numerical Aptitude (+100 pts).",
+      "timestamp": 1791647441066,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791647408539",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647408539,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647401482",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 3: Alphabet Coding (+100 pts).",
+      "timestamp": 1791647401482,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791647390276",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "HINT_USED",
+      "message": "Team accessed Hint 2 on Question 3: Alphabet Coding (-10 pts penalty).",
+      "timestamp": 1791647390276,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647365517",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647365517,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647323765",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "HINT_USED",
+      "message": "Team accessed Hint 1 on Question 3: Alphabet Coding (-10 pts penalty).",
+      "timestamp": 1791647323765,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647307193",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 2: C Programming Output (+100 pts).",
+      "timestamp": 1791647307193,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791647293468",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 1: Logical Reasoning (+100 pts).",
+      "timestamp": 1791647293468,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791647254976",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791647254976,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791647212131",
+      "teamId": "TQ-COM-557",
+      "teamName": "vbbh",
+      "type": "REGISTRATION",
+      "message": "Team \"vbbh\" registered successfully [TQ-COM-557] with 2 engineers.",
+      "timestamp": 1791647212131,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791646929633",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ADMIN_ACTION",
+      "message": "Organizer reset Round 2 Escape Room progress for squad \"CYBERDYNE SYSTEMS\". Round 1 results preserved.",
+      "timestamp": 1791646929633,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791646914327",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" entered physical keycard for The Discovery. Advancing to Room 2.",
+      "timestamp": 1791646914327,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791646902093",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" solved The Discovery puzzle (+100 PTS). Physical clue unlocked.",
+      "timestamp": 1791646902093,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791646880893",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Squad \"CYBERDYNE SYSTEMS\" breached the facility airlock and entered Round 2: Escape Room.",
+      "timestamp": 1791646880893,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791646876951",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791646876951,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791564399725",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "LOGIN",
+      "message": "Team \"abc\" authenticated into tactical dashboard.",
+      "timestamp": 1791564399725,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791564106415",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791564106415,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563950591",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791563950591,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563946760",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791563946760,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563937585",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791563937585,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563931655",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791563931655,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563904649",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791563904649,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563900760",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "LOGIN",
+      "message": "Team \"abc\" authenticated into tactical dashboard.",
+      "timestamp": 1791563900760,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563526488",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "HINT_USED",
+      "message": "Team accessed Hint 1 on Question 1: Logical Reasoning (-10 pts penalty).",
+      "timestamp": 1791563526488,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791563526483",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 5: Digital Logic and Number Systems (+100 pts).",
+      "timestamp": 1791563526483,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563526479",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 4: Numerical Aptitude (+100 pts).",
+      "timestamp": 1791563526479,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563526475",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 3: Alphabet Coding (+100 pts).",
+      "timestamp": 1791563526475,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563526468",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 2: C Programming Output (+100 pts).",
+      "timestamp": 1791563526468,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563526463",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 1: Logical Reasoning (+100 pts).",
+      "timestamp": 1791563526463,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563526442",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "LOGIN",
+      "message": "Team \"abc\" authenticated into tactical dashboard.",
+      "timestamp": 1791563526442,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563516362",
+      "teamId": "TQ-VOLT-404",
+      "teamName": "VOLT DYNAMICS",
+      "type": "ROUND_ADVANCED",
+      "message": "DECRYPTION SUCCESSFUL: Team solved Final Password \"R4#T9\" (+150 pts). Round 1 Tech Hunt Completed!",
+      "timestamp": 1791563516362,
+      "severity": "ALERT"
+    },
+    {
+      "id": "LOG-1791563516347",
+      "teamId": "TQ-VOLT-404",
+      "teamName": "VOLT DYNAMICS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared Question 5: Digital Logic and Number Systems (+100 pts).",
+      "timestamp": 1791563516347,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563516303",
+      "teamId": "TQ-VOLT-404",
+      "teamName": "VOLT DYNAMICS",
+      "type": "LOGIN",
+      "message": "Team \"VOLT DYNAMICS\" authenticated into tactical dashboard.",
+      "timestamp": 1791563516303,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563490819",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791563490819,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791563457306",
+      "teamId": "TQ-MECH-303",
+      "teamName": "MECH HORIZON",
+      "type": "LOGIN",
+      "message": "Team \"MECH HORIZON\" authenticated into tactical dashboard.",
+      "timestamp": 1791563457306,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791562619736",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562619736,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562522733",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562522733,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562516592",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562516592,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562470986",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562470986,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562458701",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562458701,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562411639",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562411639,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562406013",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "LOGIN",
+      "message": "Team \"abcd\" authenticated into tactical dashboard.",
+      "timestamp": 1791562406013,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791562358161",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562358161,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562337096",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "CHEAT_ALERT",
+      "message": "Anti-cheat flag: [WINDOW_BLUR] - User clicked outside the active test environment.",
+      "timestamp": 1791562337096,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791562256657",
+      "teamId": "TQ-COM-923",
+      "teamName": "abcd",
+      "type": "REGISTRATION",
+      "message": "Team \"abcd\" registered successfully [TQ-COM-923] with 2 engineers.",
+      "timestamp": 1791562256657,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791562171457",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791562171457,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791561900762",
+      "teamId": "TQ-COM-196",
+      "teamName": "abc",
+      "type": "REGISTRATION",
+      "message": "Team \"abc\" registered successfully [TQ-COM-196] with 2 engineers.",
+      "timestamp": 1791561900762,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791449671794",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team decoded Matchstick Puzzle (+100 pts). NIL = NOTHING.",
+      "timestamp": 1791449671794,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791449671763",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791449671763,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791449648036",
+      "teamId": "TQ-COM-726",
+      "teamName": "abc",
+      "type": "HINT_USED",
+      "message": "Team accessed tactical hint on NODE-02 (-10 pts penalty).",
+      "timestamp": 1791449648036,
+      "severity": "WARNING"
+    },
+    {
+      "id": "LOG-1791449596229",
+      "teamId": "TQ-COM-726",
+      "teamName": "abc",
+      "type": "ANSWER_ATTEMPT",
+      "message": "Team successfully cleared NODE-01 (+50 pts).",
+      "timestamp": 1791449596229,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791449466778",
+      "teamId": "TQ-COM-726",
+      "teamName": "abc",
+      "type": "REGISTRATION",
+      "message": "Team \"abc\" registered successfully [TQ-COM-726] with 2 engineers.",
+      "timestamp": 1791449466778,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-1791447393770",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "LOGIN",
+      "message": "Team \"CYBERDYNE SYSTEMS\" authenticated into tactical dashboard.",
+      "timestamp": 1791447393770,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-001",
+      "type": "ADMIN_ACTION",
+      "message": "Competition system initialized. Round 1 (Tech Hunt) active.",
+      "timestamp": 1791445935679,
+      "severity": "INFO"
+    },
+    {
+      "id": "LOG-002",
+      "teamId": "TQ-CYBER-101",
+      "teamName": "CYBERDYNE SYSTEMS",
+      "type": "ROUND_ADVANCED",
+      "message": "Team successfully completed Node 08 and unlocked Round 2 preview.",
+      "timestamp": 1791446355679,
+      "severity": "INFO"
+    }
+  ],
+  "escapeRoomPuzzles": [
+    {
+      "index": 1,
+      "systemName": "DIGITAL SYSTEM",
+      "title": "LOGIC MATRIX DESYNCHRONIZATION",
+      "question": "The auxiliary logic gate matrix has desynchronized. Given input vector A = 10110010 and B = 11001101, the parity bypass requires computing the Hexadecimal representation of (A XOR B) followed by a 2-bit circular left shift.",
+      "diagram": "[A: 10110010] ──┐\n                 ├──> [XOR] ──> [CIRCULAR SHIFT << 2] ──> [HEX DECODE]\n[B: 11001101] ──┘",
+      "hint": "Step 1: A XOR B = 01111111 (0x7F). Step 2: 8-bit left rotate by 2 bits moves the two MSBs (01) to the two LSBs: 11111101. Convert to Hex.",
+      "rewardCode": "OMEGA-771",
+      "correctAnswer": "FD"
+    },
+    {
+      "index": 2,
+      "systemName": "ELECTRONICS SYSTEM",
+      "title": "WHEATSTONE BRIDGE THERMAL FAULT",
+      "question": "Backup battery bus telemetry is fluctuating. A Wheatstone bridge monitoring temperature has R1 = 120Ω, R2 = 120Ω, and R3 = 330Ω. For the bridge to achieve null deflection (0V across galvanometer), what is the required resistance of the sensor branch Rx in Ohms?",
+      "diagram": "         +Vcc\n        /    \\\n      R1      R2 (120Ω)\n      /   (G)  \\\n     R3 ─────── Rx (?)\n      \\        /\n         GND",
+      "hint": "For balanced bridge null condition: (R1 / R3) = (R2 / Rx). Therefore Rx = (R2 * R3) / R1.",
+      "rewardCode": "VOLT-409",
+      "correctAnswer": "330"
+    },
+    {
+      "index": 3,
+      "systemName": "CODING SYSTEM",
+      "title": "FIRMWARE POINTER TRACE & CHECKSUM",
+      "question": "The PLC firmware watchdog trapped in an infinite loop. Trace the C snippet below and submit the exact final value printed for *p3.",
+      "codeSnippet": "int data[] = { 14, 28, 42, 56, 70, 84 };\nint *p1 = data + 1; // 28\nint *p2 = p1 + 3;   // 70\nint *p3 = p2 - 2;   // ?\n*p3 = (*p1) * 2 + (*p2) / 10;\nprintf(\"%d\", *p3);",
+      "hint": "p1 points to data[1]=28. p2 is data[4]=70. p3 is data[2]. Expression: 28 * 2 + 70 / 10 = 56 + 7 = 63.",
+      "rewardCode": "KERNEL-883",
+      "correctAnswer": "63"
+    },
+    {
+      "index": 4,
+      "systemName": "SENSOR SYSTEM",
+      "title": "INDUSTRIAL RTD TELEMETRY DEVIATION",
+      "question": "Boiler chamber PT100 RTD resistance measures 138.5Ω at emergency cutoff. If R(0°C) = 100Ω and temperature coefficient α = 0.00385 /°C (using linear approximation R = R0 * (1 + α * T)), calculate the detected core temperature T in Celsius (°C).",
+      "diagram": "[PT100 SENSOR] ──── R = 138.5Ω ────> [ADC 16-BIT] ────> [CORE OVERHEAT TRACE]",
+      "hint": "ΔR = 138.5 - 100 = 38.5Ω. T = ΔR / (R0 * α) = 38.5 / (100 * 0.00385) = 100.",
+      "rewardCode": "FLUX-512",
+      "correctAnswer": "100"
+    },
+    {
+      "index": 5,
+      "systemName": "ENGINEERING LOGIC",
+      "title": "6-AXIS HYDRAULIC ACTUATOR BALANCING",
+      "question": "A dual hydraulic cylinder must lift a 12,000 N assembly evenly. Cylinder 1 has piston bore area A1 = 40 cm², while Cylinder 2 has piston bore area A2 = 60 cm². If both operate from a common pressure manifold P, what pressure in Pascals (N/m²) is required to support the load? (Assume 1 cm² = 0.0001 m², Total Force = P * (A1 + A2)).",
+      "diagram": "[PUMP P] ──┬──> [CYLINDER 1: 40 cm²] ──┐\n           └──> [CYLINDER 2: 60 cm²] ──┴──> LOAD = 12,000 N",
+      "hint": "Total Area = 40 + 60 = 100 cm² = 0.01 m². Pressure P = F / Total Area = 12,000 / 0.01 = 1,200,000 Pa.",
+      "rewardCode": "NEXUS-990",
+      "correctAnswer": "1200000"
+    }
+  ],
+  "finalVaultChallenge": {
+    "id": "VAULT-001",
+    "title": "THE FINAL VAULT: QUANTUM CORE INTERLOCK",
+    "question": "The mainframe central vault is protected by a multi-variable engineering polynomial key. Solve for the master unlock key K: In a synchronized 3-phase induction motor operating at 50 Hz with 4 poles and slip s = 0.04 (4%), calculate the rotor speed in RPM, then take the sum of the digits of this speed and multiply by 42.",
+    "systemContext": "CRITICAL AUTHORIZATION REQUIRED: Top qualifying engineering squads only. System security lock is counting down.",
+    "diagramAscii": "  ┌────────────────────────────────────────────────────────┐\n  │ [3-PHASE INDUCTION MOTOR] 50 Hz | 4 POLES | SLIP 4%    │\n  │ Synchronous Speed Ns = (120 * f) / P                   │\n  │ Rotor Speed Nr = Ns * (1 - s)                          │\n  │ Master Key = (Sum of digits of Nr) * 42                │\n  └────────────────────────────────────────────────────────┘",
+    "hint": "Ns = (120 * 50) / 4 = 1500 RPM. Nr = 1500 * (1 - 0.04) = 1440 RPM. Sum of digits = 1 + 4 + 4 + 0 = 9. Master Key = 9 * 42 = 378.",
+    "correctAnswer": "378",
+    "points": 250
+  },
+  "passwordClues": [
+    {
+      "index": 1,
+      "title": "CLUE 1",
+      "clue": "I am the sound a engine makes when revved, the start of every Race, and the letter that turns a Cat into a Cart. Look to the 18th place in the alphabet.",
+      "answerChar": "R",
+      "hints": [
+        "Engine rev: Vroom... V-R-R-R.",
+        "The start of the word \"Race\" and 18th place in the English alphabet.",
+        "The single letter is R."
+      ]
+    },
+    {
+      "index": 2,
+      "title": "CLUE 2",
+      "clue": "Count the wheels on a passing car, the suits in a deck of cards, or the seasons that circle the year. Multiply two by itself, and you shall find my key.",
+      "answerChar": "4",
+      "hints": [
+        "Four wheels on a car, four suits in cards, four seasons in a year.",
+        "Multiply two by itself: 2 × 2.",
+        "The single digit is 4."
+      ]
+    },
+    {
+      "index": 3,
+      "title": "CLUE 3",
+      "clue": "Four lines intertwine to build a small cage, two lying flat, two standing tall. I turn a musical note sharp, transform words into trending tags, and sit in the corner of your phone dialer waiting to be pressed.",
+      "answerChar": "#",
+      "hints": [
+        "Four lines forming a small cage on a phone keypad.",
+        "Used on social media platforms to mark trending hashtags.",
+        "The symbol is #."
+      ]
+    },
+    {
+      "index": 4,
+      "title": "CLUE 4",
+      "clue": "I am shaped like a crossroads where three roads meet, but the path forward is blocked. I sit in the very center of water, stand at the very end of night, and without me, time itself would lose its start.",
+      "answerChar": "T",
+      "hints": [
+        "Look at the letter inside wa[T]er (center) and nigh[T] (end).",
+        "The first letter of \"Time\".",
+        "The single letter is T."
+      ]
+    },
+    {
+      "index": 5,
+      "title": "CLUE 5",
+      "clue": "I am the digit that returns to itself when added to any number's digital root. I mark the total value of a baseball team on the field, the highest single threshold before a new place value is born, and the exact count of rings forged for Mortal Men doomed to die. Cast my reflection in a mirror and I mimic a six, but divide thirty-six by four to unlock my true identity.",
+      "answerChar": "9",
+      "hints": [
+        "A baseball team fielding count is nine.",
+        "Calculate thirty-six divided by four: 36 / 4.",
+        "The single digit is 9."
+      ]
+    }
+  ],
+  "round1FinalPassword": "R4#T9",
+  "escapeRooms": [
+    {
+      "roomId": 1,
+      "roomName": "The Discovery",
+      "roomCode": "ROOM-01",
+      "roomMission": "Open the front door of the facility.",
+      "difficulty": "LEVEL 2: MODERATE",
+      "points": 100,
+      "letterPuzzleTitle": "PERIMETER SENSOR SPATIAL GRID",
+      "letterPuzzleType": "SPATIAL_GRID",
+      "letterPuzzlePrompt": "Trace spatial coordinate grid vectors to reveal the facility entrance terminal coordinates.",
+      "revealedLetters": "L1",
+      "venueLocation": "Lab Bench 1",
+      "locationClueDescription": "Physical keycard hidden at Lab Bench 1 (Intake Junction).",
+      "physicalKeyCode": "DOOR-KEY-91",
+      "physicalVerificationCode": "DOOR-KEY-91",
+      "physicalKeyPrompt": "Enter the physical keycard code hidden at Lab Bench 1.",
+      "techTitle": "NESTED SQUARE-PRIME SERIES & ALTERNATING LOGIC",
+      "techTopic": "Nested Square-Prime Series & Alternating Logic",
+      "techQuestion": "Find the number that replaces the question mark (?) in the series:\n9, 25, 49, 121, 169, 289, 361, ?",
+      "techAnswer": "529",
+      "correctAnswer": "529",
+      "techExplanation": "Squares of prime numbers: 3²=9, 5²=25, 7²=49, 11²=121, 13²=169, 17²=289, 19²=361. Next prime is 23. Therefore, 23² = 529.",
+      "hint": "Each number is the square of a prime number: 3², 5², 7², 11², 13², 17², 19². Identify the next prime number after 19 and compute its square.",
+      "hintPenaltyPoints": 10
+    },
+    {
+      "roomId": 2,
+      "roomName": "The Decoder",
+      "roomCode": "ROOM-02",
+      "roomMission": "Restore deadlocked CAN bus telemetry.",
+      "difficulty": "LEVEL 2: ADVANCED",
+      "points": 150,
+      "letterPuzzleTitle": "COMMUNICATIONS MATRIX DECRYPTION CIPHER",
+      "letterPuzzleType": "DECRYPTION_MATRIX",
+      "letterPuzzlePrompt": "Decode bus parity vectors to uncover the telemetry scope terminal.",
+      "revealedLetters": "S2",
+      "venueLocation": "Scope Station 2",
+      "locationClueDescription": "Physical card attached to Scope Station 2 near the oscilloscope rack.",
+      "physicalKeyCode": "DECODER-CHIP-42",
+      "physicalVerificationCode": "DECODER-CHIP-42",
+      "physicalKeyPrompt": "Enter the verification code embossed on the Scope Station 2 microcontroller tag.",
+      "techTitle": "C PROGRAM TRACE: OPERATOR PRECEDENCE & SHORT-CIRCUITING",
+      "techTopic": "Post/Pre-Increment & Complex Bitwise Operator Precedence",
+      "techQuestion": "What is the exact output printed by this program?",
+      "techCodeSnippet": "#include <stdio.h>\nint main() {\n    int a = 2, b = 0;\n    int c = (++a > 2) || (b++ && printf(\"Tech\"));\n    int d = (a++ && --b);\n    printf(\"%d %d %d %d\", a, b, c, d);\n    return 0;\n}",
+      "techAnswer": "4 -1 1 1",
+      "correctAnswer": "4 -1 1 1",
+      "techExplanation": "1. ++a makes a=3. (3 > 2) evaluates to true (1), so c = 1. Logical OR short-circuits, skipping (b++ && printf). b remains 0.\n2. d = (a++ && --b): a++ evaluates as 3 (truthy) then increments a to 4. --b decrements b from 0 to -1 (non-zero, truthy). Truthy && truthy yields 1, so d = 1.\n3. Output printed: 4 -1 1 1.",
+      "hint": "Remember operator precedence and short-circuit evaluation: in ||, if the left side is true (1), the right side does NOT execute. For &&, both sides evaluate if the left side is true. Non-zero values in C are true.",
+      "hintPenaltyPoints": 10
+    },
+    {
+      "roomId": 3,
+      "roomName": "The System",
+      "roomCode": "ROOM-03",
+      "roomMission": "Overrule safety lockout interlocks.",
+      "difficulty": "LEVEL 2: HIGH",
+      "points": 200,
+      "letterPuzzleTitle": "SCADA PLC RELAY LADDER LOGIC TRACE",
+      "letterPuzzleType": "LADDER_LOGIC",
+      "letterPuzzlePrompt": "Trace power flow through ladder rungs to energize the master safety coil.",
+      "revealedLetters": "P3",
+      "venueLocation": "3D Printer Enclosure",
+      "locationClueDescription": "Physical tag in 3D Printer Enclosure on acrylic safety visor at Workbench 03.",
+      "physicalKeyCode": "SYSTEM-RELAY-88",
+      "physicalVerificationCode": "SYSTEM-RELAY-88",
+      "physicalKeyPrompt": "Enter the 4-digit System Lockout Key etched on the acrylic safety visor in the 3D Printer Enclosure.",
+      "techTitle": "WEIGHTED POSITIONAL CHARACTER CIPHER",
+      "techTopic": "Alphabet Coding & Modulo Encryption",
+      "techQuestion": "In a positional encryption code, NEWYORK (111) uses letter positions (A=1 ... Z=26). A new cipher applies alternating position weights: 1st × 1, 2nd × 2, 3rd × 1, 4th × 2 ... Calculate the exact coded numerical sum for NEWJERSEY.",
+      "techAnswer": "186",
+      "correctAnswer": "186",
+      "techExplanation": "N(14×1) + E(5×2) + W(23×1) + J(10×2) + E(5×1) + R(18×2) + S(19×1) + E(5×2) + Y(25×1) = 14 + 10 + 23 + 20 + 5 + 36 + 19 + 10 + 25 = 186.",
+      "hint": "Alphabet indices (1-26): N=14, E=5, W=23, J=10, E=5, R=18, S=19, E=5, Y=25. Apply weights (1, 2, 1, 2, 1, 2, 1, 2, 1) and sum all products.",
+      "hintPenaltyPoints": 10
+    },
+    {
+      "roomId": 4,
+      "roomName": "The Final Vault",
+      "roomCode": "ROOM-04",
+      "roomMission": "Disengage facility lockdown and capture the flag.",
+      "difficulty": "LEVEL 2: MAXIMUM CRITICAL",
+      "points": 300,
+      "letterPuzzleTitle": "3-PHASE ROTOR STATOR FREQUENCY SYNC",
+      "letterPuzzleType": "ROTOR_SYNC",
+      "letterPuzzlePrompt": "Synchronize 3-phase induction slip and stator coils to access the Master Core.",
+      "revealedLetters": "V4",
+      "venueLocation": "Vault Control Desk",
+      "locationClueDescription": "Master Physical Authorization Key from Chief Proctor / Central Vault Control Desk in Room 200.",
+      "physicalKeyCode": "VAULT-FLAG-777",
+      "physicalVerificationCode": "VAULT-FLAG-777",
+      "physicalKeyPrompt": "Enter the Master Authorization Key obtained from the Vault Control Desk.",
+      "techTitle": "16-BIT TWO'S COMPLEMENT & ACCELERATION KINEMATICS",
+      "techTopic": "16-Bit Two's Complement & Acceleration Kinematics",
+      "techQuestion": "An automated guided vehicle (AGV) accelerates uniformly from rest to 36 km/h over 10 seconds. Calculate its displacement in meters (S), then express S as a negative integer (-S) represented in 16-bit 2's Complement binary (format as four 4-bit nibbles with single spaces, e.g., 1111 1111 0000 0000).",
+      "techAnswer": "1111 1111 1100 1110",
+      "correctAnswer": "1111 1111 1100 1110",
+      "techExplanation": "1. v = 36 km/h = 10 m/s. a = 10 / 10 = 1 m/s². S = 0.5 * 1 * 10² = 50 m.\n2. Target value is -50.\n3. +50 in 16-bit binary: 0000 0000 0011 0010.\n4. Invert bits (1's complement): 1111 1111 1100 1101.\n5. Add 1 (2's complement): 1111 1111 1100 1110.",
+      "hint": "Convert 36 km/h to 10 m/s. Acceleration a = 1 m/s², so S = 50 m. Express -50 in 16-bit two's complement binary: invert the bits of +50 and add 1.",
+      "hintPenaltyPoints": 10
+    }
+  ]
+}

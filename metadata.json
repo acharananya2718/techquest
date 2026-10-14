@@ -1,0 +1,6 @@
+{
+  "name": "Tech Quest: Engineering Escape Room",
+  "description": "Futuristic inter-department engineering competition platform featuring Tech Hunt, Engineering Escape Room, and the Final Vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

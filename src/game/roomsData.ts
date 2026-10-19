@@ -109,16 +109,16 @@ export const ROOMS_CONFIG: Record<number, RoomConfig> = {
         'A yellowed parchment stamped with a faded prisoner identification mark. In the margin, the two letters "L1" are etched into the fiber.',
       puzzleQuestion:
         'If 6 people each shake hands with every other person exactly once, how many handshakes occur?',
-      revealClue: 'Power hides behind rusted teeth.',
+      revealClue: 'Look beneath the loose red brick.',
       hint: 'Use the combinations formula: n*(n-1)/2 for n=6 people. 6*5/2.',
     },
 
     letter2: {
       id: 'R1-L2',
       title: 'Maintenance Log #2',
-      storyLocation: 'Inside the rusted wall breaker box',
+      storyLocation: 'Tucked beneath the loose brick on the cell floor',
       paperText:
-        'A scorched electrical maintenance ticket discovered inside the breaker box housing.',
+        'A scorched electrical maintenance ticket discovered beneath the loose brick on the cell floor.',
       puzzleQuestion:
         'A is twice as old as B. Their total age is 54 years. How old is B?',
       revealClue: 'The old screen still hums. Look at what it hides.',
@@ -178,9 +178,9 @@ export const ROOMS_CONFIG: Record<number, RoomConfig> = {
         name: 'Maintenance Ticket #2',
         prompt: '[LMB] Inspect Ticket',
         category: 'LETTER_2',
-        position: [3.35, 1.7, -1.0],
-        closeUpCameraPosition: [2.7, 1.75, -1.0],
-        closeUpLookAt: [3.35, 1.7, -1.0],
+        position: [1.5, 0.02, -1.72],
+        closeUpCameraPosition: [1.5, 0.7, -1.3],
+        closeUpLookAt: [1.5, 0.02, -1.72],
       },
       {
         id: 'r1_crt_tv',

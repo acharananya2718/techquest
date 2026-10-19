@@ -46,7 +46,7 @@ export const AUTHORITATIVE_ROOMS: Record<number, RoomAnswersConfig> = {
     roomId: 1,
     // Puzzle 1: 6 people handshakes = 6*5/2 = 15
     letter1Answer: '15',
-    letter1RevealClue: 'Power hides behind rusted teeth.',
+    letter1RevealClue: 'Look beneath the loose red brick.',
     // Puzzle 2: A = 2B, A+B=54 => 3B=54 => B=18
     letter2Answer: '18',
     letter2RevealClue: 'The old screen still hums. Look at what it hides.',

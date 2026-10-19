@@ -75,93 +75,72 @@ export default function App() {
     navigate('/');
   };
 
-  const handleLoginSuccess = (role: 'TEAM' | 'ADMIN', loggedInTeam?: Team) => {
+  const handleLoginSuccess = (role: 'TEAM' | 'ADMIN', teamData?: Team) => {
+    sound.playAccessGranted();
     if (role === 'ADMIN') {
       setIsAdmin(true);
       setTeam(null);
-    } else if (loggedInTeam) {
-      setTeam(loggedInTeam);
+      navigate('/admin');
+    } else if (teamData) {
+      setTeam(teamData);
       setIsAdmin(false);
+      navigate('/dashboard');
     }
   };
 
-  // Route selector
-  const renderCurrentPage = () => {
+  const handleRegistered = (newTeam: Team) => {
+    sound.playAccessGranted();
+    setTeam(newTeam);
+    setIsAdmin(false);
+    navigate('/dashboard');
+  };
+
+  // Render Page Content
+  const renderContent = () => {
+    if (loadingInitial) {
+      return (
+        <div className="min-h-[70vh] flex flex-col items-center justify-center space-y-4">
+          <div className="w-12 h-12 rounded-full border-2 border-cyan-500 border-t-transparent animate-spin" />
+          <p className="font-mono text-xs text-cyan-400 tracking-widest animate-pulse">
+            INITIALIZING SECURE QUANTUM TELEMETRY...
+          </p>
+        </div>
+      );
+    }
+
     switch (currentPath) {
       case '/':
-        return <LandingPage onNavigate={navigate} />;
+        return (
+          <LandingPage
+            onNavigate={navigate}
+            onQuickDemoLogin={() => handleLoginSuccess('TEAM', team || undefined)}
+          />
+        );
       case '/register':
-        return (
-          <RegisterPage
-            onRegistered={(newTeam) => {
-              setTeam(newTeam);
-              setIsAdmin(false);
-            }}
-            onNavigate={navigate}
-          />
-        );
+        return <RegisterPage onRegistered={handleRegistered} onNavigate={navigate} />;
       case '/login':
-        return (
-          <LoginPage
-            onLoginSuccess={handleLoginSuccess}
-            onNavigate={navigate}
-          />
-        );
+        return <LoginPage onLoginSuccess={handleLoginSuccess} onNavigate={navigate} />;
       case '/dashboard':
-        return (
-          <DashboardPage
-            onNavigate={navigate}
-            team={team}
-            onRefreshTeam={checkSession}
-          />
-        );
+        return <DashboardPage onNavigate={navigate} team={team} onRefreshTeam={checkSession} />;
       case '/tech-hunt':
-        return (
-          <TechHuntPage
-            onNavigate={navigate}
-            team={team}
-            onRefreshTeam={checkSession}
-          />
-        );
+        return <TechHuntPage onNavigate={navigate} team={team} onRefreshTeam={checkSession} />;
       case '/escape-room':
-        return (
-          <EscapeRoomPage
-            onNavigate={navigate}
-            team={team}
-            onRefreshTeam={checkSession}
-          />
-        );
+        return <EscapeRoomPage onNavigate={navigate} team={team} onRefreshTeam={checkSession} />;
       case '/final-vault':
-        return (
-          <FinalVaultPage
-            onNavigate={navigate}
-            team={team}
-            onRefreshTeam={checkSession}
-          />
-        );
+        return <FinalVaultPage onNavigate={navigate} team={team} onRefreshTeam={checkSession} />;
       case '/leaderboard':
-        return (
-          <LeaderboardPage
-            onNavigate={navigate}
-            userTeamId={team?.id}
-          />
-        );
+        return <LeaderboardPage onNavigate={navigate} userTeamId={team?.id} />;
       case '/results':
-        return (
-          <ResultsPage
-            onNavigate={navigate}
-            team={team}
-          />
-        );
+        return <ResultsPage onNavigate={navigate} team={team} />;
       case '/admin':
+        return <AdminPage onNavigate={navigate} onRefreshMe={checkSession} />;
+      default:
         return (
-          <AdminPage
+          <LandingPage
             onNavigate={navigate}
-            onRefreshMe={checkSession}
+            onQuickDemoLogin={() => handleLoginSuccess('TEAM', team || undefined)}
           />
         );
-      default:
-        return <LandingPage onNavigate={navigate} />;
     }
   };
 
@@ -177,8 +156,8 @@ export default function App() {
         />
       )}
 
-      <main className={currentPath === '/escape-room' ? 'fixed inset-0 w-screen h-screen overflow-hidden' : 'flex-1 relative'}>
-        {renderCurrentPage()}
+      <main className={currentPath === '/escape-room' ? 'flex-1 w-full h-full' : 'flex-1'}>
+        {renderContent()}
       </main>
 
       {currentPath !== '/escape-room' && <Footer onNavigate={navigate} />}

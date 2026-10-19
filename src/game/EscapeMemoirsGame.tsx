@@ -777,19 +777,25 @@ export const EscapeMemoirsGame: React.FC<EscapeMemoirsGameProps> = ({
       targetMeshMap.current.set(breakerGroup, breakerDef);
       targetMeshMap.current.set(door, breakerDef);
 
-      // Hidden Letter 2 inside Breaker Box
-      const letter2Geo = new THREE.PlaneGeometry(0.3, 0.4);
-      const letter2Mat = new THREE.MeshStandardMaterial({ color: 0xfef3c7, side: THREE.DoubleSide });
+      // Hidden Letter 2 (tucked beneath heavy loose cell brick on the floor)
+      const letter2Geo = new THREE.PlaneGeometry(0.32, 0.42);
+      const letter2Mat = new THREE.MeshStandardMaterial({
+        color: 0xfef3c7,
+        roughness: 0.85,
+        side: THREE.DoubleSide,
+      });
       const letter2Mesh = new THREE.Mesh(letter2Geo, letter2Mat);
-      letter2Mesh.position.set(2.4, 2.05, cfg.roomBounds.minZ + 0.2);
+      letter2Mesh.rotation.x = -Math.PI / 2;
+      letter2Mesh.rotation.z = 0.15;
+      letter2Mesh.position.set(1.5, 0.02, -1.72);
       scene.add(letter2Mesh);
 
       const letter2Def: RoomInteractableDef = {
         id: 'r1_letter2',
-        name: 'Parchment Note in Breaker Conduit',
+        name: 'Maintenance Ticket #2 (Under Loose Brick)',
         prompt: '[E] Inspect Note',
         category: 'LETTER_2',
-        position: [2.4, 2.05, cfg.roomBounds.minZ + 0.2],
+        position: [1.5, 0.02, -1.72],
       };
       targetMeshMap.current.set(letter2Mesh, letter2Def);
 
@@ -1793,7 +1799,7 @@ export const EscapeMemoirsGame: React.FC<EscapeMemoirsGameProps> = ({
         dynamicMeshes.current.breakerDoor.position.set(open ? 0.45 : 0, 0, open ? 0.45 : 0.14);
         dynamicMeshes.current.breakerDoor.rotation.y = open ? -Math.PI * 0.6 : 0;
       }
-      logObjective('Swung open the rusty breaker box. Conduits and a note exposed.');
+      logObjective('Swung open the rusty breaker box. High-voltage conduits and wiring exposed.');
       return;
     }
 
